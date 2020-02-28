@@ -7,12 +7,13 @@ def search(queries, phoneBook) :
     result = ""
     for x in queries :
         if x not in phoneBook :
-            result = "Not found"
+            print("Not found")
 
         else :
-            result = x + "=" + phoneBook[x]
+            print(f"{x}={phoneBook[x]}")
+            #result = x + "=" + phoneBook[x]
         
-        print(result)
+        #print(result)
 
 #Main
 
@@ -21,11 +22,16 @@ n = int(input())
 for _ in range(0,n) :
     str = input()       #name
     str = re.split(r'[\s]\s*', str)
-    phoneBook[str[0]] = str[1]
+    phoneBook[str[0]] = int(str[1])
 #print(phoneBook)
 
-for i in range (0,n):
-    str = input()
-    queries.append(str)
+str.clear()
+
+while True:
+    try:
+        str = input()
+        queries.append(str)
+    except EOFError: 
+        break
 
 search(queries, phoneBook)
