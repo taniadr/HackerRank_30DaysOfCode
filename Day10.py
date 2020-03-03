@@ -16,7 +16,7 @@ def decToBin(n):
                 maxi = total
         else :
             total = 0
-        n = n/2
+        n = n//2
     
     print(maxi)
 
