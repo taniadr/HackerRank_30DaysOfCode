@@ -1,13 +1,25 @@
 Summary
 
 Day0 - Hello World
+
 Day1 - Primitive data types
+
 Day2 - Operators 
+
 Day3 - Intro to Conditional Statements
+
 Day4 - Class Vs. Instance 
+
 Day5 - Loops
+
 Day6 - Let's Review
+
 Day7 - Arrays
-Day8 - Dictionaries and Maps
-Day9 - Recursion 3
-Day10 - Binary Numbers
+
+Day8 - Dictionaries and Maps (dictionary + queries by key)
+
+Day9 - Recursion 3 (Fatorial factorial )
+
+Day10 - Binary Numbers ( sequential 1s in a binary number )
+
+Day11 - 2D Arrays ( hourglass problem )
